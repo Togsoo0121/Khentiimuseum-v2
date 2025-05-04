@@ -1,0 +1,108 @@
+/* General body styling */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+/* Container for the entire app */
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header styles */
+.header {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  font-style: italic;
+}
+
+/* Main content styles */
+.main-content {
+  padding: 2rem;
+  flex-grow: 1;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+/* About section styles */
+.about {
+  background-color: #fff;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Exhibits section styles */
+.exhibits {
+  display: flex;
+  gap: 2rem;
+}
+
+.exhibit {
+  background-color: #fff;
+  width: 45%;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.exhibit img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.exhibit-title {
+  font-size: 1.4rem;
+  color: #003366;
+}
+
+.exhibit p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Contact section styles */
+.contact {
+  background-color: #fff;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.contact p {
+  font-size: 1.1rem;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: auto;
+}
